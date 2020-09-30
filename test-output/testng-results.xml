@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21631" started-at="2020-09-29T19:04:21 PDT" finished-at="2020-09-29T19:04:43 PDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21631" started-at="2020-09-29T19:04:21 PDT" finished-at="2020-09-29T19:04:43 PDT">
+      <class name="com.Xero.TestCases.signUpTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.Xero.TestCases.signUpTest@536aaa8d]" name="launchBrowser" is-config="true" duration-ms="10482" started-at="2020-09-29T19:04:11 PDT" finished-at="2020-09-29T19:04:21 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="triggerDependency()[pri:0, instance:com.Xero.TestCases.signUpTest@536aaa8d]" name="triggerDependency" is-config="true" duration-ms="41" started-at="2020-09-29T19:04:21 PDT" finished-at="2020-09-29T19:04:21 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- triggerDependency -->
+        <test-method status="PASS" signature="freeDemo()[pri:0, instance:com.Xero.TestCases.signUpTest@536aaa8d]" name="freeDemo" is-config="true" duration-ms="1197" started-at="2020-09-29T19:04:21 PDT" finished-at="2020-09-29T19:04:22 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freeDemo -->
+        <test-method status="PASS" signature="signupTestID02A()[pri:1, instance:com.Xero.TestCases.signUpTest@536aaa8d]" name="signupTestID02A" duration-ms="5918" started-at="2020-09-29T19:04:22 PDT" finished-at="2020-09-29T19:04:28 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupTestID02A -->
+        <test-method status="PASS" signature="signupTestID02B()[pri:2, instance:com.Xero.TestCases.signUpTest@536aaa8d]" name="signupTestID02B" duration-ms="3456" started-at="2020-09-29T19:04:28 PDT" finished-at="2020-09-29T19:04:32 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupTestID02B -->
+        <test-method status="PASS" signature="signupTestID02C()[pri:3, instance:com.Xero.TestCases.signUpTest@536aaa8d]" name="signupTestID02C" duration-ms="5540" started-at="2020-09-29T19:04:32 PDT" finished-at="2020-09-29T19:04:37 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupTestID02C -->
+        <test-method status="PASS" signature="signupTestID02D()[pri:4, instance:com.Xero.TestCases.signUpTest@536aaa8d]" name="signupTestID02D" duration-ms="3141" started-at="2020-09-29T19:04:37 PDT" finished-at="2020-09-29T19:04:40 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupTestID02D -->
+        <test-method status="PASS" signature="signupTestID02E()[pri:5, instance:com.Xero.TestCases.signUpTest@536aaa8d]" name="signupTestID02E" duration-ms="2287" started-at="2020-09-29T19:04:40 PDT" finished-at="2020-09-29T19:04:43 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupTestID02E -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.Xero.TestCases.signUpTest@536aaa8d]" name="CloseBrowser" is-config="true" duration-ms="1329" started-at="2020-09-29T19:04:43 PDT" finished-at="2020-09-29T19:04:44 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.Xero.TestCases.signUpTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
