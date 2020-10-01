@@ -23,7 +23,9 @@ public uploadUserProfileImagePage(WebDriver driver) {
 @FindBy(xpath="//abbr[@class='xrh-avatar xrh-avatar-color-1']") WebElement DisplayedUserName;
 @FindBy(xpath="//h4[@class='xrh-verticalmenuitem--heading']") WebElement ProfileUserNameTab;
 @FindBy(xpath="//span[@id='button-1041-btnInnerEl']") WebElement UploadImageButton;
-@FindBy(xpath ="//span[contains(text(),'Browse')]") WebElement ChooseFileBrowse;
+@FindBy(xpath ="//div[@id='ext-comp-1167']//input[@id='filefield-1174-button-fileInputEl']") WebElement ChooseFileBrowse;
+
+@FindBy(xpath="//div[@id='ext-comp-1167']//div[@id='button-1178-btnWrap']//a[@id='button-1178-btnEl']") WebElement UploadButton;
 
 public void loginTab() throws InterruptedException {
 	oBroUtil.ExplicitWebDriverWait(LoginTab, 30);
@@ -51,12 +53,11 @@ public void ProfileNameClick() throws Exception {
 	oBroUtil.ExplicitWebDriverWait(UploadImageButton, 20);
 	oBroUtil.ufClickElement(UploadImageButton);
 
+	((JavascriptExecutor) driver).executeScript("arguments[0].click();", ChooseFileBrowse);
 	oBroUtil.CaptureScreenShot("Upload_Profile_Image");
-	oBroUtil.ExplicitWebDriverWait(ChooseFileBrowse, 10);
+	Thread.sleep(1000);
+	Runtime.getRuntime().exec("C:\\Users\\gsshy\\Desktop\\AutoIt\\xerofileupload.exe");
 	Thread.sleep(2000);
-	//oBroUtil.ufClickElement(ChooseFileBrowse);
-	
-	oBroUtil.ufSendKeys(ChooseFileBrowse, "C:\\Users\\gsshy\\Downloads\\Amazon-parrot.jpg");
-  
+	((JavascriptExecutor) driver).executeScript("arguments[0].click();", UploadButton);
 }
 }

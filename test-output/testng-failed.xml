@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Xero.TestCases.signUpTest">
+      <class name="com.Xero.TestCases.uploadUserProfileImageTest">
         <methods>
-          <include name="signupTestID02B"/>
           <include name="launchBrowser"/>
-          <include name="CloseBrowser"/>
-          <include name="freeDemo"/>
           <include name="triggerDependency"/>
+          <include name="uplaodImage"/>
+          <include name="CloseBrowser"/>
+          <include name="loginTabClick"/>
         </methods>
-      </class> <!-- com.Xero.TestCases.signUpTest -->
+      </class> <!-- com.Xero.TestCases.uploadUserProfileImageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
